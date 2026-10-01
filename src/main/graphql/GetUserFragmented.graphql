@@ -1,0 +1,9 @@
+query GetUserFragmented {
+  user {
+    ...UserFragment
+  }
+}
+
+fragment UserFragment on User {
+  id
+}
